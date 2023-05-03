@@ -13,3 +13,14 @@ npm i framer-motion
  ```html
  <motion.div></motion.div>
  ```
+
+### Animating a compnent
+```html
+<motion.h2 animate = {{}}>Some text</motion.h2>
+```
+
+### transform:translate
+```html
+<motion.h2 animate={{x:2, y:3}}>Some text</motion.h2> <!-- x and y in traditional CSS are: translateX and translateY -->
+```
+
