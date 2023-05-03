@@ -5,7 +5,7 @@
 npm i framer-motion
 ```
 
-### Animate a component
+### Motion component: To animate a compnent
  ```javascript
  import {motion} from 'framer-motion'
  ```
