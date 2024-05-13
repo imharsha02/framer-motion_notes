@@ -6,6 +6,8 @@ npm i framer-motion
 ```
 
 
+
+
 ### Motion component: necessary to animate an element
  ```javascript
  import {motion} from 'framer-motion'
@@ -14,11 +16,15 @@ npm i framer-motion
  ```
 
 
+
+
 ### Animate an element using the animate attribute
 ```javascript
 <motion.h2 animate = {{}}>Some text</motion.h2>
 ```
 The animate attribute accepts an object that contains all the animation properties like fontSize for increasing/decreasing the size of the text, color for animating the color of the text etc...
+
+
 
 
 ### Moving the motion elements
@@ -31,3 +37,9 @@ The animate attribute accepts an object that contains all the animation properti
 ```
 
 
+
+
+### Scale up an element
+```javascript
+<motion.button animate={{scale:<valueToIncrease>}}></motion.button>
+```
