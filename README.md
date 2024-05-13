@@ -29,11 +29,11 @@ The animate attribute accepts an object that contains all the animation properti
 
 ### Moving the motion elements
 ```javascript
-<motion.h2 animate={{x:<positiveValue>}}>...</motion.h2> // Positive value moves the element to the right
-<motion.h2 animate={{x:<negetiveValue>}}>...</motion.h2> // Negetive value moves the element to the left
+<motion.h2 animate={{x:<positiveValue>}}>...</motion.h2> /* Positive value moves the element to the right*/
+<motion.h2 animate={{x:<negetiveValue>}}>...</motion.h2> /* Negetive value moves the element to the left*/
 
-<motion.h2 animate={{y:<positiveValue>}}>...</motion.h2> // Positive value moves the element down
-<motion.h2 animate={{y:<negetiveValue>}}>...</motion.h2> // Negetive value moves the element up
+<motion.h2 animate={{y:<positiveValue>}}>...</motion.h2> /* Positive value moves the element down*/
+<motion.h2 animate={{y:<negetiveValue>}}>...</motion.h2> /* Negetive value moves the element up*/
 ```
 
 
@@ -41,5 +41,5 @@ The animate attribute accepts an object that contains all the animation properti
 
 ### Scale up an element
 ```javascript
-<motion.button animate={{scale:<valueToIncrease>}}></motion.button>
+<motion.button animate={{scale:<neumericValue>}}></motion.button> /* The element will increase <neumaricValue> times its original size*/
 ```
