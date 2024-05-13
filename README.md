@@ -5,23 +5,23 @@
 npm i framer-motion
 ```
 
-### Motion component: necessary animate a compnent
+### Motion component: necessary to animate an element
  ```javascript
  import {motion} from 'framer-motion'
- ```
- 
- ```html
- <motion.div></motion.div>
+
+<motion.div></motion.div>
  ```
 
-### Animating a compnent
-```html
+### Animate an element using the animate attribute
+```javascript
 <motion.h2 animate = {{}}>Some text</motion.h2>
 ```
+The animate attribute accepts an object that contains all the animation properties like fontSize for increasing/decreasing the size of the text, color for animating the color of the text etc...
 
-### transform:translate propery in CSS animation in framer motion will be, 
-```html
-<motion.h2 animate={{x:2, y:3}}>Some text</motion.h2> 
-<!-- x and y in traditional CSS are: translateX and translateY -->
-```
+### Moving the motion elements
+```javascript
+<motion.h2 animate={{x:<positiveValue>}}>...</motion.h2> // Positive value moves the element to the right
+<motion.h2 animate={{x:<negetiveValue>}}>...</motion.h2> // Negetive value moves the element to the left
 
+<motion.h2 animate={{y:<positiveValue>}}>...</motion.h2> // Positive value moves the element down
+<motion.h2 animate={{y:<negetiveValue>}}>...</motion.h2> // Negetive value moves the element up
