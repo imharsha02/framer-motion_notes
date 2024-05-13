@@ -28,12 +28,16 @@ The animate attribute accepts an object that contains all the animation properti
 
 
 ### Moving the motion elements
+Horizontal
 ```javascript
-<motion.h2 animate={{x:<positiveValue>}}>...</motion.h2> /* Positive value moves the element to the right*/
-<motion.h2 animate={{x:<negetiveValue>}}>...</motion.h2> /* Negetive value moves the element to the left*/
+<motion.h2 animate={{x:<positiveValue>}}>...</motion.h2> /* *Positive value moves the element to the right
+<motion.h2 animate={{x:<negetiveValue>}}>...</motion.h2>  *Negetive value moves the element to the left*/
+```
 
-<motion.h2 animate={{y:<positiveValue>}}>...</motion.h2> /* Positive value moves the element down*/
-<motion.h2 animate={{y:<negetiveValue>}}>...</motion.h2> /* Negetive value moves the element up*/
+Vertical
+```javascript
+<motion.h2 animate={{y:<positiveValue>}}>...</motion.h2> /* Positive value moves the element down
+<motion.h2 animate={{y:<negetiveValue>}}>...</motion.h2>  Negetive value moves the element up*/
 ```
 
 
